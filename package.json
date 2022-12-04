@@ -1,0 +1,17 @@
+{
+  "name": "vbb-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "clean": "pnpm run --filter \"./packages/**\" -r --parallel clean",
+    "build:packages": "pnpm run --filter \"./packages/**\" -r --parallel build"
+  },
+  "keywords": [],
+  "author": "revfanc",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^2.7.14"
+  }
+}

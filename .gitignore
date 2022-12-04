@@ -1,0 +1,16 @@
+.cache
+.DS_Store
+.idea
+
+# npm
+**/node_modules/
+package-lock.json
+
+# dist file
+es
+lib
+dist
+/site
+changelog.generated.md
+test/coverage
+vetur
